@@ -1,11 +1,10 @@
 import React from 'react'
-import Layout from '../../components/navbar/Layout'
+import Layout from '../../../components/navbar/Layout'
 
-const AddBlog = () => {
+const EditBlog = () => {
   return (
-      <Layout>
-        
-<div className="flex justify-center  w-screen h-screen bg-white ">
+    <Layout>
+      <div className="flex justify-center  w-screen h-screen bg-white ">
 	<div className="container my-4  lg:px-20 ">
 		<div className=" w-auto p-4 my-8 md:px-12 lg:w-9/12 lg:pl-20 lg:pr-40  rounded-2xl shadow-2xl mx-40 ">
 			<div className="flex">
@@ -27,15 +26,14 @@ const AddBlog = () => {
 				<div className="my-2 w-1/2 lg:w-1/4">
 					<button className="uppercase text-sm font-bold tracking-wide bg-blue-900 text-gray-100 p-3 rounded-lg w-full 
                       focus:outline-none focus:shadow-outline">
-            Add Blog
+            Edit Blog
           </button>
 				</div>
 			</div>
     </div>
 </div>
-        
-      </Layout>
+    </Layout>
   )
 }
 
-export default AddBlog
+export default EditBlog
