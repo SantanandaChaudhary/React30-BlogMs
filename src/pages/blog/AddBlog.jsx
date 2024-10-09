@@ -6,7 +6,7 @@ const AddBlog = () => {
   return (
     
     <Layout>
-     <Form/>
+     <Form type='Create'/>
     </Layout>
   );
 };

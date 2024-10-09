@@ -1,6 +1,6 @@
 import React from "react";
 
-const Form = () => {
+const Form = ({type}) => {
   return (
     <>
       <div className="flex justify-center  w-screen h-screen bg-white ">
@@ -8,7 +8,7 @@ const Form = () => {
           <div className=" w-auto p-4 my-8 md:px-12 lg:w-9/12 lg:pl-20 lg:pr-40  rounded-2xl shadow-2xl mx-40 ">
             <div className="flex">
               <h1 className="font-bold uppercase text-5xl">
-                Create <br /> Blog
+                {type} <br /> Blog
               </h1>
             </div>
             <div className="grid grid-cols-1 gap-5 md:grid-cols-2 ">
